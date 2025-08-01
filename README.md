@@ -152,3 +152,29 @@ TotalSpend column for each transaction by multiplying Quantity by UnitPrice, the
 
 Standardize/Normalize RFM Values: Before applying a clustering algorithm like K-Means, you must standardize or normalize the Recency, Frequency, and Monetary values. This ensures that each feature contributes equally to the clustering process.
 ```
+
+```
+Based on the Shopper Spectrum_ Segmentation and Recommendations.docx project brief, your next steps after completing the EDA and RFM feature engineering are to build two main modules:
+
+Clustering Methodology (Customer Segmentation):
+
+Standardize your RFM values.
+
+Choose a clustering algorithm like K-Means.
+
+Use the Elbow Method or Silhouette Score to find the optimal number of clusters.
+
+Run the clustering model and assign a cluster label (e.g., "High-Value," "At-Risk") to each customer based on their average RFM scores.
+
+Visualize the clusters.
+
+Save this trained clustering model for use in the Streamlit app.
+
+Recommendation System Approach:
+
+Create a customer-product matrix to represent user interactions.
+
+Use item-based collaborative filtering to calculate the cosine similarity between products based on their purchase history.
+
+This similarity matrix will be used to recommend the top 5 most similar products when a user inputs a product name.
+```
