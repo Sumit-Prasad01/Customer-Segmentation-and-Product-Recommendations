@@ -56,8 +56,8 @@ shopper-spectrum/
 │   ├── 02_data_preprocessing.ipynb     # Data cleaning and preparation
 │   ├── 03_rfm_analysis.ipynb          # RFM calculation and analysis
 │   ├── 04_customer_segmentation.ipynb # Clustering implementation
-│   ├── 05_recommendation_system.ipynb # Collaborative filtering
-│   └── 06_model_evaluation.ipynb      # Performance metrics and validation
+│   └── 05_recommendation_system.ipynb # Collaborative filtering
+│   
 │
 │
 ├── 📁 models/
