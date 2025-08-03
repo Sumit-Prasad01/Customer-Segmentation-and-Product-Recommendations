@@ -89,3 +89,5 @@ shopper-spectrum/
 └── 📄 Documentation.md                # Project Documentation
 ```
 
+## Streamlit App Link - https://sumit-prasad01-customer-segmentation-and-product-rec-app-73szsl.streamlit.app/
+
